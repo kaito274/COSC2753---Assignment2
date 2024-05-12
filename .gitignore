@@ -4,4 +4,4 @@ CNN*
 history_model*
 model*
 logs*
-.ipynb_checkpoints/*
+.ipynb_checkpoints
