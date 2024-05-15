@@ -5,3 +5,5 @@ history_model*
 model*
 logs*
 .ipynb_checkpoints
+augmentation/
+augmentation_Task3/
