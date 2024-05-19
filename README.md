@@ -38,7 +38,7 @@
 2. `data/`: The folder contains all the splitted data for three tasks and raw Furniture Data.
 3. `external_resources/`: The folder contains additional materials using for the assessment.
 4. `images/`: The folder contains statistic charts of each training model using for evaluation.
-5. `query_image: Saving folder for additional images using for prediction of task 2 and 3.
+5. `query_image`: Saving folder for additional images using for prediction of task 2 and 3.
 6. `Machine Learning-COSC2753_2024A_Assignment 2-1.pdf`: PDF file for the detail requirements of the assessment.
 7. `utils/`: The folder contains additional figures.
 8. `Task 1 CNN`: The notebook of CNN model for task 1.
@@ -108,6 +108,9 @@ Our additional dataset for this project is available on [Github](https://github.
 
             
 #### Classify Furniture Images
+![Output 1](utils/output_imgs/output1.png)
+![Output 2](utils/output_imgs/output2.png)
+![Output 3](utils/output_imgs/output3.png)
 
 
 #### Recommend Furniture Images
