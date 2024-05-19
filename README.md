@@ -108,10 +108,11 @@ Our additional dataset for this project is available on [Github](https://github.
 
             
 #### Classify Furniture Images
-![Output 1](utils/output_imgs/output1.png)
-![Output 2](utils/output_imgs/output2.png)
-![Output 3](utils/output_imgs/output3.png)
-
+<img src="utils/output_imgs/output1.png" alt="Output 1" width="400" height="300"/>
 
 #### Recommend Furniture Images
+<img src="utils/output_imgs/output2.png" alt="Output 2" width="400" height="300"/>
+<img src="utils/output_imgs/output3.png" alt="Output 3" width="400" height="300"/>
+
+
 
