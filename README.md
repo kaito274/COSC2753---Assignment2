@@ -92,12 +92,21 @@ Our additional dataset for this project is available on [Github](https://github.
     ├── data/
     │   ├── Furniture_Data (required to run the EDA according to our file path in the code)
     │   └── additional csv files
-    │
+
     ...
     ```
-### Using Trained Models
+### Using final Trained Models
 
+**Task 1** : 
+- CNN model (`model4.h5`)
 
+**Task 2** 
+- CNN with similarity calculator
+
+**Task 3**
+- VGG16 with Multi Label Binarizer (`model1_Task3.h5`)
+
+            
 #### Classify Furniture Images
 
 
