@@ -1,7 +1,7 @@
 # COSC2753 - Machine Learning 
 # Assessment 2 + 3: Group Machine Learning Project
 
-To navigate the project requirements, via [Project Requirement](Machine Learning-COSC2753_2024A_Assignment 2-1.pdf).
+
 
 ---
 
@@ -17,15 +17,20 @@ To navigate the project requirements, via [Project Requirement](Machine Learning
 │   └── sofas
 ├── data/
 │   ├── Furniture_Data (*The data of this project available on Canvas/Github to run EDAs)
-│   ├── test/bed 
-│   ├── train/bed
-│   └── val/bed
+│   └── additional csv files
 ├── external_resources/
+├── feature_extractor_for_all_data/
+│   ├── variables/
+│   ├── keras_metadata.pb
+│   └── saved_model.pb
 ├── images/
 ├── query_image/
+├── utils/
 ├── .gitignore
 ├── Machine Learning-COSC2753_2024A_Assignment 2-1.pdf
 ├── README.md
+├── notebooks for the three tasks
+├── scraping.py
 └── scraping1.py
 ```
 
@@ -35,7 +40,15 @@ To navigate the project requirements, via [Project Requirement](Machine Learning
 4. `images/`: The folder contains statistic charts of each training model using for evaluation.
 5. `query_image: Saving folder for additional images using for prediction of task 2 and 3.
 6. `Machine Learning-COSC2753_2024A_Assignment 2-1.pdf`: PDF file for the detail requirements of the assessment.
-7. ` `
+7. `utils/`: The folder contains additional figures.
+8. `Task 1 CNN`: The notebook of CNN model for task 1.
+9. `Task 1 EDA & Preprocess`: The notebook of Exploratory Data Analysis for task 1.
+10. `Task 1 ResNet50`: The notebook of ResNet model for task 1.
+11. `Task 2 CNN_features`: The notebook of CNN model for task 2.
+12. `Task 2 K-means-Clustering`: The notebook of K-means clustering model for task 2.
+13. `Task 3 EDA & Preprocess`: The notebook of Exploratory Data Analysis for task 3.
+14. `Task 3 CNN`: The notebook of CNN model for task 3.
+15. `Task 3 RecommendStyles`: The notebook of recommend style for task 3.
 
 ---
 
@@ -69,7 +82,7 @@ Our additional dataset for this project is available on [Github](https://github.
    Moving on, use the [Github](https://github.com/DarcieNg/ML-Assignment-2-Dataset):
 
     ```bash
-    kaggle datasets download -d (path of data) -p ./external_resources/ --unzip
+    github datasets download -d (https://github.com/DarcieNg/ML-Assignment-2-Dataset) -p ./data/ --unzip
     ```
    
     The folder architecture after download the external dataset should be:
@@ -78,9 +91,7 @@ Our additional dataset for this project is available on [Github](https://github.
     .
     ├── data/
     │   ├── Furniture_Data (required to run the EDA according to our file path in the code)
-    │   ├── test/bed
-    │   ├── train/bed
-    │   └── val/bed
+    │   └── additional csv files
     │
     ...
     ```
