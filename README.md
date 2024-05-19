@@ -111,8 +111,8 @@ Our additional dataset for this project is available on [Github](https://github.
 <img src="utils/output_imgs/output1.png" alt="Output 1" width="400" height="300"/>
 
 #### Recommend Furniture Images
-<img src="utils/output_imgs/output2.png" alt="Output 2" width="400" height="300"/>
-<img src="utils/output_imgs/output3.png" alt="Output 3" width="400" height="300"/>
+<img src="utils/output_imgs/output2.png" alt="Output 2" width="600" height="500"/>
+<img src="utils/output_imgs/output3.png" alt="Output 3" width="600" height="500"/>
 
 
 
